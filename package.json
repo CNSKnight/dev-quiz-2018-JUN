@@ -1,0 +1,21 @@
+{
+  "name": "dev-quiz",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dot-object": "^1.7.0",
+    "opn": "^5.3.0"
+  },
+  "devDependencies": {},
+  "description": "suite of JS/NodeJS Q's & A's",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "dev-quiz-2018-JUN"
+  },
+  "author": "@CNSKnight",
+  "license": "ISC"
+}

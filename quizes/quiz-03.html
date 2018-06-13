@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <style>
+        .wrapper {
+            margin-top: 3rem;
+            display: flex;
+        }
+
+        .wrapper>div {
+            border: 1px solid #bdbdbd;
+            padding: 1em;
+        }
+
+        .gamesLstng {
+            flex: 1 2 auto;
+        }
+
+        .gamesLstng li {
+            padding: .6em 0;
+        }
+
+        .stdPanel {
+            flex: 2 3 auto;
+        }
+
+        .stdPanel h4 {
+            font-weight: 600;
+        }
+
+        .badgesLstng {
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        .badgesLstng li {
+            flex: 0 1 50%;
+        }
+
+        .wrapper li>* {
+            color: #00695c;
+        }
+
+        .badgesLstng
+    </style>
+</head>
+
+<body>
+    <div id="badges" class="row">
+        <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <div class="wrapper grey lighten-3">
+                <div class="gamesLstng">
+                    <ul></ul>
+                </div>
+                <div class="stdPanel">
+                    <p></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="quiz-03.js"></script>
+</body>
+
+</html>

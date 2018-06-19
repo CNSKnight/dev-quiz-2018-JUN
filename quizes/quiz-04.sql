@@ -13,3 +13,10 @@ INSERT INTO `episode` SET
 `active`=true,
 `unlocked`=true
 ;
+
+INSERT INTO `show`(`showid`, `showname`) VALUES (42, "Unlocked");
+
+CREATE OR REPLACE VIEW `vw_unlockeds` AS 
+SELECT `titleid`, `name`, `showid`, `active` from `tmptest22`.`episode` 
+WHERE `unlocked` = TRUE ORDER BY `name`
+;
